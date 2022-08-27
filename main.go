@@ -1,9 +1,9 @@
 package main
 
 import (
-	"urbox-viettel-go/app"
-	"urbox-viettel-go/cmd"
-	"urbox-viettel-go/configs"
+	"go-template/app"
+	"go-template/cmd"
+	"go-template/configs"
 )
 
 func main() {

@@ -16,4 +16,4 @@ COPY --from=builder /root/go-template /root
 # for http
 EXPOSE 6001
 
-CMD ["./go-template", "start"]
+CMD ["./go-template", "http"]

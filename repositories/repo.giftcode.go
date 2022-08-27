@@ -1,8 +1,8 @@
 package repositories
 
 import (
-	"urbox-viettel-go/db"
-	"urbox-viettel-go/models"
+	"go-template/db"
+	"go-template/models"
 )
 
 var GiftCodeRepo *GiftCodeRepository

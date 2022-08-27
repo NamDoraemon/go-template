@@ -3,13 +3,13 @@ package cmd
 import (
 	"fmt"
 	"github.com/urfave/cli/v2"
+	"go-template/configs"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/reflection"
 	"log"
 	"net"
 	"time"
-	"urbox-viettel-go/configs"
 )
 
 func GRPCServe(ctx *cli.Context) error {

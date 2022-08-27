@@ -4,12 +4,12 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/urfave/cli/v2"
+	"go-template/app"
+	"go-template/configs"
+	"go-template/services"
 	"go.elastic.co/apm/module/apmgin"
 	"net/http"
 	"time"
-	"urbox-viettel-go/app"
-	"urbox-viettel-go/configs"
-	"urbox-viettel-go/services"
 )
 
 func HTTPConfigs() gin.HandlerFunc {

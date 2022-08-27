@@ -1,6 +1,6 @@
 package services
 
-import "urbox-viettel-go/app"
+import "go-template/app"
 
 type Services struct {
 	App *app.GApp

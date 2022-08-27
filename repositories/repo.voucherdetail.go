@@ -1,10 +1,10 @@
 package repositories
 
 import (
+	"go-template/db"
+	"go-template/models"
 	"gorm.io/gorm"
 	"log"
-	"urbox-viettel-go/db"
-	"urbox-viettel-go/models"
 )
 
 var VoucherDetailRepo *VoucherDetailRepository

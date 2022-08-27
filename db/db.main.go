@@ -2,12 +2,12 @@ package db
 
 import (
 	"fmt"
+	"go-template/configs"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"log"
 	"time"
-	"urbox-viettel-go/configs"
 )
 
 type ManageDB struct {

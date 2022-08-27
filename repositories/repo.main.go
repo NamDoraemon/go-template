@@ -1,8 +1,8 @@
 package repositories
 
 import (
+	"go-template/db"
 	"gorm.io/gorm"
-	"urbox-viettel-go/db"
 )
 
 type BaseRepository struct {

@@ -2,9 +2,9 @@ package services
 
 import (
 	"github.com/gin-gonic/gin"
+	"go-template/entities"
 	"log"
 	"net/http"
-	"urbox-viettel-go/entities"
 )
 
 func (service Services) GetCodeController(ctx *gin.Context) {

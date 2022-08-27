@@ -3,10 +3,10 @@ package app
 import (
 	"fmt"
 	"github.com/go-redis/redis/v7"
+	"go-template/configs"
+	"go-template/db"
+	"go-template/repositories"
 	"log"
-	"urbox-viettel-go/configs"
-	"urbox-viettel-go/db"
-	"urbox-viettel-go/repositories"
 )
 
 var App *GApp
